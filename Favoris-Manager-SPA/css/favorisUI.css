@@ -1,0 +1,87 @@
+
+.favoriRow {
+    padding: 8px;
+    padding-bottom: 0px;
+    scroll-snap-align: start;
+}
+
+.favoriContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: top;
+    background-color: rgb(195, 199, 205);
+    border-radius: 6px;
+}
+
+
+.favoriContainer .cmdIcon {
+    display: none;
+}
+
+.favoriContainer:hover .cmdIcon {
+    display: block;
+}
+
+.favoriLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.favoriTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.favoriUrl{
+    color: black;
+}
+
+.favoriCategorie {
+    color: blue;
+}
+
+.favoriCommandPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.favorideleteForm {
+    margin: 20px;
+}
+
+.favicon {
+    text-align: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15px;
+    width:15px;
+    margin-right: 5px;
+    display: block;
+}
+.small-favicon {
+    text-align: center;
+    background-image: url("../bookmark_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+.big-favicon {
+    text-align: center;
+    background-image: url("../bookmark_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
